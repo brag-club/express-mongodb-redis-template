@@ -14,7 +14,7 @@ const validate =
         } catch (error: any) {
           return res.status(400).send(error.errors);
         }
-    }
-}
+    };
+};
 
 export default validate;
